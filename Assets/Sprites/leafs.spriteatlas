@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: leafs
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 4ad176a1215802d43b40eb87ab9d32a3, type: 3}
+    - {fileID: 21300000, guid: 929bd9d0305d3a640ab6083cac3bb23c, type: 3}
+    totalSpriteSurfaceArea: 2048
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 929bd9d0305d3a640ab6083cac3bb23c, type: 3}
+  - {fileID: 21300000, guid: 4ad176a1215802d43b40eb87ab9d32a3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - leaf2
+  - leaf
+  m_Tag: leafs
+  m_IsVariant: 0
