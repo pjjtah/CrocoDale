@@ -41,13 +41,9 @@ public class GlobalObject : MonoBehaviour
 
         }
 
-        BinaryFormatter formatter = new BinaryFormatter();
-        FileStream saveFile = File.Create(Application.persistentDataPath+"Saves/save.save");
+        string json = JsonUtility.ToJson(data);
 
-
-        formatter.Serialize(saveFile, data);
-
-        saveFile.Close();
+        File.WriteAllText(Application.persistentDataPath + "Saves/save.save", json);
     }
 
     public void LoadData()
@@ -66,12 +62,10 @@ public class GlobalObject : MonoBehaviour
             };
             SaveData();
         }
-        BinaryFormatter formatter = new BinaryFormatter();
-        FileStream saveFile = File.Open(Application.persistentDataPath+"Saves/save.save", FileMode.Open);
+        string json = File.ReadAllText(Application.persistentDataPath + "Saves/save.save");
+        Save s = JsonUtility.FromJson<Save>(json);
 
-        data = (Save)formatter.Deserialize(saveFile);
-
-        saveFile.Close();
+        data = s;
     }
 
     public void ClearData()

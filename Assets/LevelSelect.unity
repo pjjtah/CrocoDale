@@ -919,7 +919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9375254, b: 0.58823526, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1264,7 +1264,6 @@ GameObject:
   - component: {fileID: 302744844}
   - component: {fileID: 302744843}
   - component: {fileID: 302744842}
-  - component: {fileID: 302744845}
   m_Layer: 0
   m_Name: cave
   m_TagString: Untagged
@@ -1376,18 +1375,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 302744840}
---- !u!114 &302744845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 302744840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 992960431ec26a2479cbf6e6eb24cf74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: 7
 --- !u!1 &322177660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,7 +1802,6 @@ GameObject:
   - component: {fileID: 383387192}
   - component: {fileID: 383387191}
   - component: {fileID: 383387190}
-  - component: {fileID: 383387193}
   - component: {fileID: 383387194}
   m_Layer: 5
   m_Name: level1
@@ -1939,18 +1925,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 383387188}
---- !u!114 &383387193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 383387188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 992960431ec26a2479cbf6e6eb24cf74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: 13
 --- !u!114 &383387194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3149,7 +3123,8 @@ ParticleSystem:
     flipV: 0
     randomRow: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: befc1ef827a5d7448b82f1c9701ec3e0, type: 3}
+    - sprite: {fileID: 21300000, guid: f90eef67476e2a14fa458d7360c8933a, type: 3}
+    - sprite: {fileID: 21300004, guid: f90eef67476e2a14fa458d7360c8933a, type: 3}
   VelocityModule:
     enabled: 0
     x:
@@ -8631,7 +8606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9372549, b: 0.5882353, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8875,7 +8850,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.20392157, g: 0.27058825, b: 0.38431373, a: 1}
+  m_BackGroundColor: {r: 0.3680796, g: 0.5441177, b: 0.3120675, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -10082,7 +10057,6 @@ GameObject:
   - component: {fileID: 1030805242}
   - component: {fileID: 1030805241}
   - component: {fileID: 1030805240}
-  - component: {fileID: 1030805243}
   m_Layer: 0
   m_Name: jungle
   m_TagString: Untagged
@@ -10194,18 +10168,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1030805238}
---- !u!114 &1030805243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1030805238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 992960431ec26a2479cbf6e6eb24cf74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: 13
 --- !u!1 &1032593775
 GameObject:
   m_ObjectHideFlags: 0
@@ -17481,7 +17443,6 @@ GameObject:
   - component: {fileID: 1976425510}
   - component: {fileID: 1976425509}
   - component: {fileID: 1976425508}
-  - component: {fileID: 1976425507}
   - component: {fileID: 1976425511}
   m_Layer: 5
   m_Name: level1
@@ -17509,18 +17470,6 @@ RectTransform:
   m_AnchoredPosition: {x: -750, y: 0}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1976425507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1976425505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 992960431ec26a2479cbf6e6eb24cf74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: 7
 --- !u!114 &1976425508
 MonoBehaviour:
   m_ObjectHideFlags: 0
